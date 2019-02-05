@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:900i');
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Condensed');
 
 body {
     margin: 0;
@@ -20,7 +17,7 @@ header {
     background-image: url("images/front-img.jpg");
     background-position: center center;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     height: 1050px;
     color: #fff;
     display: flex;
@@ -88,6 +85,7 @@ h5 {
     line-height: 1em;
     text-transform: uppercase;
 }
+
 figure {
     margin: 1em 0;
 }
@@ -99,6 +97,19 @@ figcaption {
     letter-spacing: .09em;
     line-height: 3em;
     text-transform: uppercase;
+}
+
+hr {
+    background-color: #ff6c45;
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin: 50px 0;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 .contentBox {
@@ -124,7 +135,6 @@ figcaption {
     line-height: 1em;
     text-transform: none;
     margin-top: 0;
-
 }
 
 .contentInfo {
@@ -136,6 +146,16 @@ figcaption {
     line-height: 1.7em;
     text-transform: none;
     color: rgba(40,26,23,.6);
+}
+
+.bottomLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.line {
+    width: 35%;
 }
 
 .sideInfo {
@@ -196,5 +216,22 @@ figcaption {
     margin-top: 80px;
 }
 
-
 /* Img section */
+
+/* Footer section */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: #262626;
+    margin-top: 80px;
+}
+
+.whiteTitle {
+    color: white;
+}
+
+/* Footer section */
